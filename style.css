@@ -26,13 +26,19 @@ padding: 10% 20% 20% 10%;
     border-top:#4aaaa5;
     padding-top: 1.7rem;
 }
-h1, h2 {
+h1 {
+    padding: 3%;
+    text-align: center;
     background: #4aaaa5;
     color: #ffffff;
     margin: none;
 }
 h2 {
+    padding: 3%;
+    text-align: center;
     margin-right: 68%;
+    color: #4aaaa5;
+    margin: none;
 }
 
 .row {
@@ -49,11 +55,15 @@ h2 {
     
     }
     .col-md-3 offset-md-2 {
-        
+
     }
 }
 @media (max-width: 640px) {
     .navbar-brand {
     font-size: 5.25rem;
     }
+}
+/* stylesheet for portfolio */
+.row {
+    margin-top: 7%;
 }
