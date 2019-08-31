@@ -1,0 +1,41 @@
+/* style for contact.html */
+.container {
+background-image: url(concrete-texture.png);
+margin: none !important;
+padding: 40px 200px 200px 40px;
+}
+.white {
+    padding: 5%;
+    margin: auto;
+    background: #ffffff;
+}
+.navbar {
+    background: #ffffff;
+}
+.navbar-brand {
+    margin-left: 3.5rem;
+    margin-right: 20.5rem;
+    font-size: 2.25rem;   
+    background: #4aaaa5;
+}
+.fixed-bottom {
+    height: 3rem;
+    text-align: center;
+    font-size: 1rem;
+    background: #666666;
+    border-top:#4aaaa5;
+    padding-top: 1.7rem;
+}
+h1 {
+    color: #4aaaa5;
+}
+.btn-primary {
+    color: #ffffff;
+    background: #4aaaa5;
+    border-color: #4aaaa5;
+}
+@media (max-width: 640px) {
+    .navbar-brand {
+    font-size: 5.25rem;
+    }
+}
