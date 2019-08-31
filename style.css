@@ -1,4 +1,5 @@
-/* style for contact.html at 9800*/
+/* style for contact.html at 980*/
+
 .container {
 background-image: url(concrete-texture.png);
 margin: none !important;
@@ -40,10 +41,15 @@ h2 {
     color: #4aaaa5;
     margin: none;
 }
-
-.row {
-    font-size: o;
+.col{
+  padding:0 !important;
 }
+.col-md-1 {
+    padding: 0 !important;
+}
+/* .btn.btn-light {
+    size: 87 38;
+} */
 .btn-primary {
     color: #ffffff;
     background: #4aaaa5;
@@ -63,7 +69,18 @@ h2 {
     font-size: 5.25rem;
     }
 }
-/* stylesheet for portfolio */
+/* stylesheet for portfolio.html */
 .row {
     margin-top: 7%;
 }
+.card-body {
+    background: #4aaaa5;
+}
+.card-text {
+    background: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    padding: 5%;
+}
+
+/* stylesheet for index.html */
