@@ -7,35 +7,48 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="contact.html" type="text/html">
-        <link rel="stylesheet" href="portfolio.html" type="text/html">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style.css" type="text/css">
         <title>Portfolio</title>
     </head>
 
     <body>
-        <div class="container1">
-            <div class="row">
-                <div class="col-md-3 offset-md-2">
-                    <h1>Tetiana Cary</h1>
-                </div>
-                <div class="col-md-4"></div>
-                <div class="col-md-1">
-                    <button type="button" class="btn btn-light">About</button>
-                </div>
-                <div class="col-md-1">
-                    <button type="button" class="btn btn-light">Portfolio</button>
-                </div>
-                <div class="col-md-1">
-                    <button type="button" class="btn btn-light">Contact</button>
-                </div>
+
+        <nav id="masthead" class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">Tetiana Cary</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+
+                </ul>
             </div>
-        </div>
-        <div class="container">
-            <div class="white">
+        </nav>
+        <div id="main-container" class="container">
+            <section class="main-section">
+
                 <div class="row">
                     <div class="col-md-12">
-                        <h2>About Me</h2>
+                        <h1>About Me</h1>
                     </div>
                 </div>
                 <div class="row">
@@ -57,36 +70,16 @@
                             enjoys it. I
                             was
                             curious,
-                            but so <strong>far</strong> away from being "techy".
-                        </p>
-                        <!-- <p>
-                            Then a good friend of mine kept telling me about web-development and how much he enjoys it.
-                            I
-                            was
-                            curious,
                             but so <strong>far</strong> away from being "techy". And everytime he tried to talk me into
-                            it,
-                            I
-                            was
-                            too
-                            scared to make that leap into the unknown, it's like falling out of the airplane without a
-                            parachute
-                            or
-                            driving in the car at 120mph down a steep mountain road. Well you can only imagine what it's
-                            like!
-                        </p> -->
+                            it, I was too scared to make that leap into the unknown,
+                            it's like falling out of the airplane without a
+                            parachute or driving in the car at 120mph down a steep mountain road. Well you can only
+                            imagine what it's like! But I finally did it, and look at me and my awesome Portfolio. Look
+                            at all of the cool staff that I know now:
+                        </p>
                     </div>
                 </div>
                 <div class="row">
-                    <p>
-                        And everytime he tried to talk me into it, I was too scared to make that leap into the unknown,
-                        it's like falling out of the airplane without a
-                        parachute or driving in the car at 120mph down a steep mountain road. Well you can only imagine
-                        what it's like!
-                    </p>
-                    <p>
-                        But I finally did it, and look at me and my awesome Portfolio. Look at all of the cool staff
-                        that I know now:</p>
                     <div class="col-md">
                         <ul>
                             <li>HTML5</li>
@@ -116,8 +109,9 @@
                         <p>Of course thanks to a great teacher and TA's ;-)</p>
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
+        <div class="fixed-bottom" class="container">Copyright &copy;</div>
     </body>
 
 </html>
