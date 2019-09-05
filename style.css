@@ -26,6 +26,9 @@ nav a:first-child {
   float: right;
   margin-top: 25px;
 }
+#navbarNav.navbar-nav {
+ display: block;
+}
 nav {
     background: #ffffff;
 }
